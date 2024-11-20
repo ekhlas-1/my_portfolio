@@ -1,0 +1,137 @@
+/* إضافة خط عربي */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: 'Cairo', sans-serif; /* استخدمنا خط "Cairo" */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    direction: rtl; /* النص من اليمين لليسار */
+    text-align: right; /* محاذاة النص إلى اليمين */
+}
+
+header {
+    background-color: #00bcd4; /* تم تغيير اللون إلى أزرق سماوي */
+    color: white;
+    text-align: center;
+    padding: 30px 20px;}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+/* تنسيق الحاويات */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* قسم نبذة عني */
+.about {
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* قسم المهارات */
+.skills {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* قسم المشاريع */
+.projects {
+    padding: 40px 0;
+    background-color: #f4f4f4;
+}
+
+.projects .project {
+    display: inline-block;
+    width: 45%;
+    margin: 10px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.profile-img {
+    max-width: 150px; /* الحد الأقصى للعرض */
+    max-height: 150px; /* الحد الأقصى للارتفاع */
+    width: auto; /* اجعل العرض يتناسب مع الارتفاع */
+    height: auto; /* اجعل الارتفاع يتناسب مع العرض */
+    border-radius: 50%; /* لجعل الصورة دائرية */
+    border: 3px solid #4CAF50; /* إضافة إطار حول الصورة */
+    margin: 20px auto; /* توسيط الصورة */
+    display: block;
+}
+
+.projects .project a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #4CAF50;
+    text-decoration: none;
+}
+.projects .project img {
+    max-width: 100%; /* لضمان أن الصورة لا تتجاوز عرض الحاوية */
+    height: auto; /* الحفاظ على التناسب بين العرض والارتفاع */
+    width: 80%; /* تحديد عرض الصورة ليكون 80% من عرض المشروع */
+    object-fit: cover; /* لضبط الصورة داخل الحاوية بشكل متناسق */
+    border-radius: 8px; /* لتنعيم الحواف */
+    margin-left: auto; /* لجعل الصورة تنحصر على اليمين */
+    margin-right: auto; /* للتأكد من التوسيط عموديًا */
+    display: block; /* لضبط العرض التلقائي */
+}
+.projects .project a:hover {
+    text-decoration: underline;
+}
+
+/* قسم الاتصال */
+.contact {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.contact ul li a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.contact ul li a:hover {
+    color: #45a049;
+}
+
+/* الفوتر */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px 0;}

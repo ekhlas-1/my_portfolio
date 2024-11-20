@@ -1,0 +1,136 @@
+
+css
+نسخ الكود
+/* تنسيق الصورة الشخصية */
+.profile-img {
+    width: 150px; /* ضبط عرض الصورة */
+    height: 150px; /* ضبط ارتفاع الصورة */
+    border-radius: 50%; /* جعل الصورة دائرية */
+    object-fit: cover; /* لضمان تناسب الصورة مع الإطار */
+    border: 3px solid #4CAF50; /* إضافة إطار حول الصورة */
+    margin: 20px auto; /* توسيط الصورة */
+    display: block; /* لضمان أن الصورة تكون في سطر منفصل */
+}
+
+/* تحسين التنسيق العام للصفحة */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+/* تنسيق الحاويات */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* قسم نبذة عني */
+.about {
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* قسم المهارات */
+.skills {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* قسم المشاريع */
+.projects {
+    padding: 40px 0;
+    background-color: #f4f4f4;
+}
+
+.projects .project {
+    display: inline-block;
+    width: 45%;
+    margin: 10px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.projects .project img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.projects .project a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.projects .project a:hover {
+    text-decoration: underline;
+}
+
+/* قسم الاتصال */
+.contact {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.contact ul li a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.contact ul li a:hover {
+    color: #45a049;
+}
+
+/* الفوتر */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
